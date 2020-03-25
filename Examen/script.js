@@ -15,7 +15,7 @@ const onClick1 = ()  => {
     end.innerHTML = ''
     initTime = new Date()
     init.innerHTML = formatDate(initTime)
-    myVar = setInterval( () =>{
+    myVar = new setInterval( () =>{
 
                   endTime = new Date()
                   price = (endTime - initTime) * 1.388888888888889e-5
